@@ -1,0 +1,26 @@
+#Hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* two columns of equal width */
+    gap: 40px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+.hero-text {
+    display: flex;
+}
+
+.hero-img{
+    display:flex;
+    width:100%;
+}
+
