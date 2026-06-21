@@ -3,6 +3,8 @@ https://www.figma.com/design/uMPn0TRpaHU2P9pWoWodDO/8.Studio-Design-Landin-Page-
 
 
 Wykorzystane technologie:
+
+
 -HTML
 
 
