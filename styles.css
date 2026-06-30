@@ -7,8 +7,8 @@
 }
 
 body {
-    font-family:'Popins', sans-serif;
-    color: #272D3E; /* Ciemny kolor tekstu z Figmy */
+    font-family:'Poppins', sans-serif;
+    color: #272D3E;
     background-color: #FFFFFF;
     overflow-x: hidden;
 }
@@ -30,9 +30,83 @@ body {
     padding: 0px 20px;
 }
 
-.hero-img{
+.container a{
+    color: black;
+    text-decoration: none;
+}
+
+.hero-img img{
     width:100%;
     height: auto;
     border-radius: 8px;
+    display:block
 }
+
+button {
+    background-color:#2639ED;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 40px;
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor:pointer;
+}
+
+.hero-text {
+    margin:0;
+}
+
+.hero-text h1 {
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.container1 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto;
+    gap: 40px;
+    max-width: 1200px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 800;
+    color: black;
+}
+
+.container2 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto;
+    gap: 40px;
+    max-width: 1200px;
+}
+
+.container3 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px auto;
+    gap: 40px;
+    max-width: 1200px;
+}
+
+
 
